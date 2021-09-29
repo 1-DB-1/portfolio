@@ -1,0 +1,26 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3A435C;
+}
+.carousel{
+    position: relative;
+    height: 1200px;
+    perspective: 500px;
+}
+.carousel .carousel-item{
+    width: 250px;
+}
+.carousel .carousel-item img{
+    max-width: 250px;
+}
+

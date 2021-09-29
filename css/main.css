@@ -6,7 +6,7 @@ body{
     font-size: 24px;
     line-height: 30px;
     color: #FFFFFF;
-    
+    margin: 0;
    
 }
 
@@ -84,9 +84,8 @@ body{
     overflow: hidden;
 }
 .intro{
+    
     position: absolute;
-    width: 100%;
-    top: 30%;
     transform: translateY(920%);
     color: #B4BEDB;
     text-transform: inherit;
@@ -94,6 +93,8 @@ body{
     text-decoration: none;
     font-size: 24px;
     overflow: hidden;
+    width: 100%;
+    text-align: center;
 }
 
 .h1{
@@ -115,11 +116,10 @@ body{
     transform: translateX(230%);
 }
 
-.slika{
-    position: relative;
+.devices-slika{
     width: 100%;
-    height: calc(100vh+100px);
     text-align: center; 
+    margin-top: 50px;
 }
 .button{
    
@@ -304,9 +304,11 @@ a:hover span:nth-child(4)
     .footer{
         margin-top: 150px;
         margin-bottom: 85px;
+        box-sizing: border-box;
+
     }
 
-    .contact{
+.contact{
     width: 100%;
     max-width: 1050px;
     margin: 0 auto;
@@ -356,21 +358,24 @@ a:hover span:nth-child(4)
     display: flex;
     flex-direction: row;
     justify-content: center;
+    
 }    
 .box{
     width: 230px;
     margin: 0 20px;
 }
 
-
 .novpr{
     max-width: 1050px;
     width: 100%;
-    margin: 0 auto;
-    padding: 100px;
+    margin: 150px auto;
     display: flex;
+    
     flex-direction: row;
     justify-content: center;
+    box-sizing: border-box;
+
+   
 }
 
 
@@ -379,7 +384,8 @@ a:hover span:nth-child(4)
     font-family: Mulish;
     font-size: 50px;
     line-height: 54px;
-    color: #B4BEDB;
+    color: white;
+    
 }
 .separation-line{
     width: 100px;
@@ -392,6 +398,7 @@ a:hover span:nth-child(4)
     color: #B4BEDB;
     font-size: 24px;
 }
+
 .div11{
     text-align: center;
     margin: 100px 0 0 30px;
@@ -408,10 +415,7 @@ a:hover span:nth-child(4)
     text-align: center;
     margin: 125px 0;
 }
-.name{
-    color: white;
-    font-size: 28px;
-}
+
 .mail{
     color: white;
 }
@@ -423,9 +427,9 @@ a:hover span:nth-child(4)
     font-size: 28px;
 }
 .naslov{
-max-width: 1050px;
-margin-top: 150px ;
-width: 100%;
+    max-width: 1050px;
+    margin-top: 150px ;
+    width: 100%;
 
 }
 .process{
@@ -441,7 +445,7 @@ width: 100%;
 }
 .methods{
     text-align: center;
-    margin: 13px 0 15px 0;
+    transform: translateY(33%);
 }
 .naslov{
     max-width: 1050px;
@@ -463,20 +467,62 @@ width: 100%;
 .slika2{
     margin: 0 0 0 43px;
 }
-.swot{
+.swotanalysis{
     max-width: 1050px;
-    margin: 0 auto;
+    width: 100%;
+    margin: 36px auto;
+    display: flex;
+    flex-direction: row;
     
+}
+.swot-box{
+    max-width: 1050px;
     border: 2px solid #B4BEDB;
     border-radius: 10px;
     width: 506px;
     height: 228px;
     color: #B4BEDB;
     float: left;
+   
+}
+
+.swot-title{
+    transform: translate(7%, 70%);
+}
+.swot-text{
+    max-width: 500px;
+    transform: translate(7%, 20%);
     
 }
-.SWOT{
-    margin: 38px 320px 158px 40px;
+
+
+.personi{
+float: left;
+}
+.carousel-body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3A435C;
+}
+.carousel{
+    position: relative;
+    height: 1000px;
+    perspective: 1500px;
+    overflow: hidden;
+    width: 100%;
+    
+   
+}
+.carousel .carousel-item{
+    width: 1050px;
+    
+}
+.carousel .carousel-item img{
+    max-width: 1050px;
+  
+}
+
 
 
 
@@ -486,29 +532,102 @@ width: 100%;
 
 
 @media screen and (max-width: 900px) {
-    .button1{
-       float: none;
-       text-align: center;
-       width: 100%;
-       font-size: 19px;
-       padding: 10px 20px;
-     
+    #logo {
+        height: 53px;
+        
     }
-  
+    #menu{
+    display: none;
+    }
     .verticalCenter{
-        font-size: 19px;
-        
-    }
-    .body{
-        font-size: 16px;
-    }
-    .navbar{
+        position: absolute;
+        width: 100%;
         text-align: center;
-        
-    }
-    .text, .contact, .mail{
-        max-width: 400px;
+        transform: translateY(120%);
+        margin: none;
         font-size: 16px;
+       
+    }
+    #designer {
+        margin-right: -230px;
+        font-size: 18px;
+    }
+    #jas{
+        font-size: 18px;
+    }
+    .linkovi{
+        position: fixed;
+        bottom: 17px;
+        transform: translateX(45%);
+    }
+    #kvadrat{
+        height: 35px;
+    }
+   .intro{
+       transform: translateY(500px);
+        display: none;
+   }
+   .devices-slika{
+       width: 100%;
+       max-width: 800px;
+       text-align: center;
+       padding: 50px;
+       box-sizing: border-box;
+    }
+   
+   .navbar{
+        text-align: center;
+        height: 55px;
+    }
+    .novpr{
+        display: block;
+    }
+    .name{
+        font-size: 20px;
+        margin: 0 80px;
+    }
+    .separation-line{
+        margin: 30px;
+        margin-left: 80px;
+    }
+    .textdescription{
+        margin: 30px 74px;
+        font-size: 20px;
+    }
+    #button{
+    margin: 0 75px;
+    text-align: center;
+    }
+    .div11{
+        width: 100%;
+        max-width: 800px;
+        text-align: center;
+        padding: 50px;
+        box-sizing: border-box;
+        margin: 0;
+    }
+    .div22{
+        width: 100%;
+        max-width: 800px;
+        text-align: center;
+        padding: 50px;
+        box-sizing: border-box;
+        margin: 0;
+    }
+    .div33{
+        width: 100%;
+        max-width: 800px;
+        text-align: center;
+        padding: 50px;
+        box-sizing: border-box;
+        margin: 0;
+    }
+
+    .text, .contact, .mail{
+        max-width: 300px;
+        font-size: 16px;
+        letter-spacing: 0.5px;
+        box-sizing: border-box;
     }
     .button a{
         font-size: 19px;
