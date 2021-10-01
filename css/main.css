@@ -162,6 +162,7 @@ animation:  animate 2s infinite;
     text-align: center; 
     margin-top: 50px;
 }
+
 .button{
    
     width: 100%;
@@ -394,11 +395,15 @@ a:hover span:nth-child(4)
 .projects{
     width: 100%;
     max-width: 1050px;
-    margin: 0 auto;
-    padding: 100px;
+    margin: 150px auto;
     display: flex;
     flex-direction: row;
     justify-content: center;
+    text-align: center;
+    font-size: 35px;
+    color: #B4BEDB;
+    
+
     
 }    
 .box{
@@ -438,6 +443,11 @@ a:hover span:nth-child(4)
     font-family: Mulish;
     color: #B4BEDB;
     font-size: 24px;
+}
+.div10{
+    width: 100%;
+text-align: center;
+max-width: 800px;
 }
 
 .div11{
@@ -517,24 +527,18 @@ a:hover span:nth-child(4)
     
 }
 .swot-box{
-    max-width: 1050px;
+    
     border: 2px solid #B4BEDB;
     border-radius: 10px;
-    width: 506px;
+    width: 50%;
     height: 228px;
     color: #B4BEDB;
     float: left;
+    padding: 20px;
    
 }
 
-.swot-title{
-    transform: translate(7%, 70%);
-}
-.swot-text{
-    max-width: 500px;
-    transform: translate(7%, 20%);
-    
-}
+
 
 
 .personi{
@@ -563,8 +567,6 @@ float: left;
     max-width: 1050px;
   
 }
-
-
 
 
 
@@ -621,7 +623,12 @@ float: left;
         height: 55px;
     }
     .novpr{
-        display: block;
+        flex-wrap: wrap;
+    }
+    #process-box{
+        padding: 20px 50px;
+    box-sizing: border-box;
+    margin: 50px 0;
     }
     .name{
         font-size: 20px;
@@ -639,12 +646,14 @@ float: left;
     margin: 0 75px;
     text-align: center;
     }
-    .div11{
-        width: 100%;
-        max-width: 800px;
+   
+    .div10{
+        width: 60%;
         text-align: center;
-        padding: 50px;
-        box-sizing: border-box;
+    }
+    .div11{
+        width: 80%;
+        text-align: center;
         margin: 0;
     }
     .div22{
@@ -681,4 +690,73 @@ float: left;
         font-size: 19px;
         padding: 10px 20px;
     }
+
+    .projects{
+        font-size: 24px;
+        margin: 0;
+    }
+
+    .naslov{
+        max-width: 400px;
+        font-size: 20px;
+        text-align: left;
+        margin: 0 80px;
+    }
+    #title{
+        font-size: 24px;
+        margin: 20px;
+       
+    }
+    #h5naslov{
+        font-size: 20px
+    }
+
+    .process{
+        margin: 5px auto;
+        float: none;
+        font-size: 20px;
+    }
+    .swotanalysis{
+       flex-wrap: wrap;
+      
+       width: 100%;
+       margin-left: 0;
+       margin: 0;
+       justify-content: center;
+       
+       
+       
+      
+    }
+    .swot-box{
+        width: 80%;
+        margin-left: 0;
+        margin-top: 35px;
+        justify-content: center;
+    }
+   
+    .swot-text{
+        font-size: 18px;
+    }
+    #threats{
+        margin-left: 0;
+    }
+    #swot1{
+        margin-top:  0;
+    }
+
+    .personi{
+      text-align: center;
+    }
+
+    #p1{
+        margin: initial;
+    }
+
+    #competitors{
+        width: 82%;
+    }
+    
+    
+  
 }
