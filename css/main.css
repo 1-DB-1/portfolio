@@ -425,6 +425,7 @@ a:hover span:nth-child(4)
 }
 
 
+
 .name{
     margin-bottom: 50px;
     font-family: Mulish;
@@ -550,7 +551,7 @@ float: left;
     overflow: hidden;
     position: relative;
     width: 100%;
-    height: 900px;
+    height: 1000px;
     perspective: 500px;
     transform-origin: 0% 50%;
     
@@ -589,7 +590,11 @@ float: left;
 
 
 
+
 @media screen and (max-width: 900px) {
+    .body{
+        margin: 20px;
+    }
     #logo {
         height: 53px;
         
@@ -616,11 +621,13 @@ float: left;
     #jas{
         font-size: 18px;
     }
+
     .linkovi{
-        position: fixed;
+       position: initial;
         bottom: 17px;
-        transform: translateX(45%);
+        transform: translateX(2%);
     }
+    
     #kvadrat{
         height: 35px;
     }
@@ -650,35 +657,38 @@ float: left;
     }
     .name{
         font-size: 20px;
-        margin: 0 80px;
+        margin: 20px;
+    }
+    #overviewimg{
+        text-align: center;
+        margin: 20px;
+        width: 80%;
     }
     .separation-line{
         margin: 30px;
         margin-left: 80px;
     }
     .textdescription{
-        margin: 30px 74px;
+        margin: 20px;
         font-size: 20px;
     }
     #button{
     margin: 0 75px;
     text-align: center;
     }
-    #novpr-slika{
-        width: 60%;
-        max-width: 500px;
-        text-align: center;
-        padding: 50px;
-        box-sizing: border-box;
-        margin: 0; 
+    #userflow{
+        display: none;
     }
-   
+   .div1{
+       margin: 0;
+       margin-top: 0;
+   }
+   .div11{
+    text-align: center;
+    margin-top: 0;
+}
     
-    .div11{
-        width: 80%;
-        text-align: center;
-        margin: 0;
-    }
+    
     .div22{
         width: 100%;
         max-width: 800px;
@@ -735,16 +745,15 @@ float: left;
         max-width: 400px;
         font-size: 20px;
         text-align: left;
-        margin: 0 80px;
+        margin: 20px;
     }
     #title{
         font-size: 24px;
+        margin-top: 100px;
         
        
     }
-    #h5naslov{
-        font-size: 20px
-    }
+    
 
     .process{
         margin: 5px auto;
@@ -765,8 +774,9 @@ float: left;
     }
     .swot-box{
         width: 80%;
-     
+        margin-left: 35px;
         margin-top: 35px;
+        margin-right: 35px;
         justify-content: center;
     }
    
@@ -774,7 +784,7 @@ float: left;
         font-size: 18px;
     }
     #threats{
-        margin-left: 0;
+        
     }
     #swot1{
         margin-top:  0;
@@ -785,10 +795,12 @@ float: left;
     }
 
     #p1{
-        margin: initial;
+        margin-right: 48px;
+        
+        margin-left: 48px;
     }
 
-    competitors{
+    .competitors{
         width: 82%;
     }
  
@@ -801,8 +813,13 @@ float: left;
        max-width: 900px;
        
     }
-    .h3{
+    #h3{
         font-size: 20px;
     }
+    #ui-kit{
+       display: none;
+    }
+    
+    
   
 }
