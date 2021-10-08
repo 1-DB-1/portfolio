@@ -14,11 +14,12 @@ body
 }
 .carousel{
     position: relative;
-    height: 1200px;
+    height: 800px;
     perspective: 500px;
 }
 .carousel .carousel-item{
     width: 250px;
+    height: 200px;
 }
 .carousel .carousel-item img{
     max-width: 250px;
