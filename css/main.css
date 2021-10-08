@@ -467,6 +467,7 @@ max-width: 800px;
 .div11{
     text-align: center;
     margin: 100px 0 0 30px;
+    margin-top: 190px;
 }
 .div22{
     text-align: center;
@@ -753,7 +754,7 @@ float: left;
        margin-top: 0;
    }
    .div11{
-    margin:  0 20px;
+    margin: 20px;
     margin-top: 50px;
 }
     
@@ -855,9 +856,7 @@ float: left;
     }
     
    
-    #div11img{
-        margin-top: 0;
-    }
+   
 
     .personi{
       text-align: center;
