@@ -430,6 +430,7 @@ a:hover span:nth-child(4)
 
 
 
+
 .name{
     margin-bottom: 50px;
     font-family: Mulish;
@@ -596,6 +597,56 @@ float: left;
     margin-top: 120px;
 }
 
+#kit-slikavidivaka1 {
+    margin-top: 150px; 
+    float: left; 
+    margin-right: 150px;
+   }
+#kit-slikavidivaka2 {
+    margin-top: 150px; 
+    text-align: center;
+}
+#kit-slikavidivaka3 {
+    margin-top: 150px; 
+    margin-left: 150px; 
+    margin-bottom: 150px;
+}
+
+#kit-slikagallery1 {
+    margin-top: 130px; 
+    float: left; 
+    margin-right: 150px;
+}
+#kit-slikagallery2 {
+    margin-top: 130px; 
+    text-align: center;
+}
+#kit-slikagallery3 {
+    float: right; 
+    margin-top: 130px; 
+    margin-left: 150px; 
+    margin-bottom: 200px;
+}
+
+#kit-slikalearn1 {
+    margin-top: 50px; 
+    float: left; 
+    margin-right: 150px; 
+    margin-bottom: 150px;
+}
+#kit-slikalearn2 {
+    margin-bottom:350px; 
+    text-align: center; 
+    margin-top: 50px;
+}
+#kit-slikalearn3 {
+    float: right; 
+    margin-bottom: 600px; 
+    margin-left: 150px; 
+    margin-top: 50px;
+}
+
+
 
 
 
@@ -636,9 +687,9 @@ float: left;
     }
 
     .linkovi{
-       
         bottom: 17px;
         transform: translateX(2%);
+        position: relative;
     }
     
     #kvadrat{
@@ -847,12 +898,17 @@ float: left;
  
     #kit-slikavidivaka1 {
         margin-left: 50px;
+        margin-top: 100px;
        }
-    
+    #kit-slikavidivaka2 {
+        text-align: center;
+        margin-top: 100px;
+       }
+
     #kit-slikavidivaka3 {
-        margin-top: 150px;
-        margin-right: 255px;
-        margin-bottom: 150px;
+        margin-top: 100px;
+        margin-right: 260px;
+        
        }
 
     #kit-slika1{
@@ -861,14 +917,13 @@ float: left;
        
         }
      #kit-slika2{
-            margin: initial;
+     margin: initial;
        
     
      }
     #kit-slika3{
        
-        margin: initial ;
-        margin-right: 300px;
+     margin-right: 100px;
         
     }
     #gallery-background{
@@ -882,6 +937,38 @@ float: left;
        
        
    }
+
+   #kit-slikagallery1 {
+    margin-top: 100px; 
+    margin-right: 100px;
+}
+#kit-slikagallery2 {
+    margin-top: 100px; 
+    text-align: center;
+}
+#kit-slikagallery3 {
+    float: right; 
+    margin-top: 100px; 
+    margin-right: 300px; 
+    
+}
+
+#kit-slikalearn1 {
+    margin-top: 50px; 
+   margin-left: 50px;
+   margin-bottom: 0;
+}
+#kit-slikalearn2 {
+    
+    text-align: center; 
+    margin-top: 100px;
+    margin-bottom: 0;
+}
+#kit-slikalearn3 {
+    
+    margin-right: 225px; 
+    margin-top: 100px;
+}
   
        
 }
