@@ -736,6 +736,7 @@ float: left;
     }
     .novpr{
         flex-wrap: wrap;
+        margin-top: 0px;
     }
     #process-box{
         padding: 20px 50px;
@@ -779,7 +780,13 @@ float: left;
     margin: 20px;
     margin-top: 50px;
 }
+    .div00{
+    width: 60%;
+    text-align: center;
+    max-width: 400px;
+    margin-right: 40px;
     
+    }
     
     .div22{
         width: 100%;
